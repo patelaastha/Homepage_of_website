@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating Navigation menu</title>
+    <link rel="stylesheet" href= "webpagestyle.css">
+  </head>
+    <header>
+        <div class="bar" onclick="opennav()">
+            <span class="Bar-items"></span>
+            <span class="Bar-items"></span>
+            <span class="Bar-items"></span>
+        </div>
+        <div class="navigation" id="mynav">
+            <span class="Close-itemsX" onclick="closenav()"></span>
+            <span class="Close-itemsY" onclick="closenav()"></span>    
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">Buy/Sell</a>
+                <a href="#">Review </a>
+                <a href="#">View Product</a>
+                <a href="#">Blog</a>
+            </div>
+            </div>  
+      <nav class="navbar">
+        <ul>
+          <li><a href="/content_of_web.html" target="_blank" class="btn">About Us</a></li>
+          <li><a href="/contact us.html" target="_blank" class="btn"> contact Us</a></li>
+          <li><a href="$" class="btn"> Read More</a></li>
+          <li><a href="$" target="_blank" class="btn">Service</a></li>
+          <li><a href="$" target="_blank" class="btn">Know More</a></li>
+
+        <div class="search">
+          <input type="text" name="search" id="search" placeholder="search something here">
+        </div>
+        </ul>
+      </header>
+
+        <u> <u><p id="style1">FarmO'Cart</p></u> </u>
+        <p id="style2"><i>Lets eat organic!!!</i></p>
+        <p id="style3"> <i> FarmO'Cart-An B2B & B2C Organic MarketPlace where you get organic food and vegetable
+        delivered within 12 hours of order on your doorstep! </i></p>
+
+        <marquee behaviour="slide" scrollamount="15" scrolldelay="3" ><h1>welcome to FarmO'Cart's Organic world!</h1></marquee>
+      </nav>
+  </body>
+  <script>
+      function opennav(){
+    document.getElementById("mynav").style.display='block';
+}
+function closenav(){
+    document.getElementById("mynav").style.display='none';
+}
+  </script>
+</html>

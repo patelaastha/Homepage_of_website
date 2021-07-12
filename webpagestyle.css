@@ -1,0 +1,144 @@
+        body{
+            background-image: url("image/farmO'cart.jpg");
+            height: 650px;
+            width: 1255px; 
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+            
+       .navbar {
+        background-color: rgb(4, 24, 44); 
+      }
+      .navbar ul {
+        overflow: auto;
+      }
+      .navbar li {
+        float: left;
+        list-style: none;
+        margin: 13px 20px;
+      }
+      .navbar li a {
+        padding: 5px 10px;
+        margin: 4px 10px;
+        text-decoration: none;
+        color: rgb(14, 0, 0);
+      }
+
+      .search{
+        float:right;
+        color:white;
+        padding: 12px 75px;
+      }
+      .navbar input{
+       border: 2px solid black;
+       border-radius:16px;
+       padding: 7px 30px;
+       width:147px;
+      }
+     h1{
+      text-align: center;
+      text-decoration: solid;    
+      color: rgb(184, 221, 21);  
+      font-size:50px; 
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+      font-weight:900;
+      }
+      #style1{
+        text-align: center;   
+        color: rgb(2, 99, 15);
+        font-size:77px; 
+        font-family: Matura MT Script Capitals;
+        font-weight: bold;
+        margin-top: 44px;
+        margin-bottom: -34px;
+       }
+        #style2{
+        text-align: center;
+        color: rgb(9, 165, 30);
+        font-size:30px; 
+        font-weight: bold;
+        }
+         
+        #style3{
+        text-align: center;
+        color: rgb(248, 248, 244);
+        font-size:35px; 
+        font-weight: bold;
+        margin-top: 61px;
+        padding-top: 50px;
+
+        } 
+
+        .btn{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            background-color:rgb(240, 241, 232);
+            padding: 6px 6px 6px 6px;
+            margin: 6px 6px 6px 6px;
+            border: 3px;
+            cursor:pointer;  
+            font-size: 13px;
+            border-radius:22px;
+            align-items: center;
+        }
+        .btn:hover{
+            color: rgb(2, 36, 14);
+            background-color: rgb(18, 214, 93);
+            border: 2px solid black;
+        }
+    .bar{
+    position:absolute ;
+    left:0;
+    top:0;
+    padding:31px 16px 1px 25px;
+}
+.Bar-items{
+    width:25px;
+    height:4px;
+    background-color:rgb(230, 239, 240);
+    margin:4px 0px;
+    display:block ;
+}
+.navigation{
+    width: 188px;
+    padding: 11px 19px 13px 31px;
+    margin: 60px 9px 28px 1px;
+    background: linear-gradient(#eceff0,#e7ece9);
+    position: absolute;
+    z-index: 975;
+    display: none;
+}
+
+.Close-itemsX{
+    position:absolute ;
+    right:15px;
+    top:20px;
+    width:4px;
+    height:20px;
+    background-color:rgb(14, 13, 13);
+    transform:rotate(36deg);
+}
+.Close-itemsY{
+    position:absolute ;
+    right:15px;
+    top:20px;
+    width:4px;
+    height:20px;
+    background-color:rgb(13, 14, 13);
+    transform:rotate(-36deg);
+}
+.links{
+    padding-top:30px;
+    display:flex;
+    align-items:center ;
+    justify-content:left ;
+    flex-direction:column;
+}
+a{
+    padding:15px 20px;
+    color:rgb(16, 17, 16);
+    text-decoration:none;
+    font-weight:500;
+    font-size:1.2rem;
+    
+}
